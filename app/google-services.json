@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "8200937468",
+    "firebase_url": "https://motsa-6347b.firebaseio.com",
+    "project_id": "motsa-6347b",
+    "storage_bucket": "motsa-6347b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8200937468:android:11440d71537b3f83",
+        "android_client_info": {
+          "package_name": "com.ksh.motsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8200937468-sp3rcks78vgtl9o0kdp9trdf2a3v8dc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ksh.motsa",
+            "certificate_hash": "3a634a91e468e0ba790c0c1120f972fee95ec83b"
+          }
+        },
+        {
+          "client_id": "8200937468-i15efro5i7ajb032a81o14uc7q615q8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu9lcLZ7T8WKA5-9noqq0WZs9om-4SimA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8200937468-i15efro5i7ajb032a81o14uc7q615q8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
