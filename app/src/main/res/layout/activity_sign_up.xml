@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".SignUpActivity">
+
+
+    <ImageView
+        android:id="@+id/sinUp_applogo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/sinUp_email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sinUp_applogo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/joginbtn"
+        android:hint="이메일"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorDarkGray"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sinUp_pwd_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sinUp_email_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/joginbtn"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorDarkGray"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sinUp_location_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sinUp_pwd_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/joginbtn"
+        android:hint="사는곳"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorDarkGray"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sinUp_phone_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sinUp_location_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/joginbtn"
+        android:hint="휴대폰번호"
+        android:inputType="phone"
+        android:padding="20dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorDarkGray"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sinUp_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sinUp_phone_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/joginbtn"
+        android:hint="이름"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorDarkGray"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sinUp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sinUp_name_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="회원가입"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+    
+    <ProgressBar
+        android:id="@+id/signUp_loadingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

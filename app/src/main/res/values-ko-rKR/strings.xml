@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_login">로그인</string>
+    <string name="sign_Up">회원가입</string>
+    <string name="login">로그인</string>
+    <string name="email">이메일</string>
+    <string name="pwd">비밀번호</string>
+    <string name="nav_home">홈</string>
+    <string name="nav_store">스토어</string>
+    <string name="nav_favorite">찜</string>
+    <string name="nav_profile">MY</string>
+    <string name="nav_category">카테고리</string>
+    <string name="app_name">모옷사</string>
+</resources>
